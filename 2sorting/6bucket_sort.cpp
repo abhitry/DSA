@@ -11,7 +11,7 @@ int main()
         bucket[i]=0;
     }
     for(int i=0;i<n;i++)
-    {
+    { 
         bucket[nums[i]]++;
     }
     for(int i=0;i<=max;i++)

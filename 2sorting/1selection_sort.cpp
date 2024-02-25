@@ -12,7 +12,7 @@ void selection(int nums[],int n)
             if(nums[j]<min)
             {
                 min=nums[j];
-                ind=j;
+                ind=j; 
             }
         }
         if(nums[i]>nums[j])

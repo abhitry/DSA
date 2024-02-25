@@ -14,7 +14,7 @@ void rec_bubble(int *nums,int n)
         }
     }
     rec_bubble(nums,n-1);
-}
+} 
 int main()
 {
     int nums[10]={9,2,7,4,5,8,1,0,6,3};
