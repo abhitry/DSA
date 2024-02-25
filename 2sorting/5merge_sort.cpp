@@ -4,7 +4,7 @@ void merge(int *nums,int low,int mid,int up)
 {
     int i=low;
     int j=mid+1;
-    int* temp=new int[up-low+1];
+    int* temp=new int[up-low+1]; 
     int k=0;
     while(i<=mid && j<=up)
     {
