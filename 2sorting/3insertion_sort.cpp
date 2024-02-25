@@ -4,7 +4,7 @@ void rec_insertion(int *nums,int  i,int n)
 {
     if(i==n)
     {
-        return;
+        return; 
     }
     int j=i-1;
     int temp=nums[i];
