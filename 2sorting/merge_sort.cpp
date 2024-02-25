@@ -53,6 +53,6 @@ int main()
     mergesort(nums,0,n-1);
     for(int i=0;i<n;i++)
     {
-        cout<<nums[i]<<" ";
+        cout<<nums[i]<<"  ";
     }
 }
