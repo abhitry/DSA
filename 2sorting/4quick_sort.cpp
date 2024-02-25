@@ -13,7 +13,7 @@ int partition(int *nums,int low,int up)
         }
         while(nums[q]>pivot)
         {
-            q--;
+            q--; 
         }
         if(p<q)
         {
