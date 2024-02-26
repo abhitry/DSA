@@ -4,6 +4,8 @@
 using namespace std;
 
 //HASHMAP O[NLOGN]        O[N]
+//finding the reming part in the hashmap sum=k+reming 
+
 int findAllSubarraysWithGivenSum(vector < int > & nums, int k) 
 {
     int n=nums.size();
