@@ -15,7 +15,7 @@ int findAllSubarraysWithGivenXor(vector<int>&nums,int k)
     {
         xr=xr^nums[i];
         int x=xr^k;
-        cnt+=mpp[x];
+        cnt+=mpp[x]; 
         mpp[xr]++;
     }
     return cnt;
