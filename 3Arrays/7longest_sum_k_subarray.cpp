@@ -11,7 +11,7 @@ int getLongestSubarray(vector<int>&nums,int k)
     int sum=0;
     int maxlen=0;
     map<int,int>presum;
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++) 
     {
         sum+=nums[i];
         if(sum==k)
