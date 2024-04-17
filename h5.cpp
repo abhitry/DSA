@@ -19,7 +19,7 @@ switch (month) {
         cout<<("march\n");
     case 4:
         cout<<("april\n");
-    
+        break;
     default:
         cout<<("default case match\n");
 }
